@@ -1,7 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using SubmitClaims.Models;
+using Microsoft.AspNetCore.Identity;
+using SubmitClaims.Areas.Identity.Data;
+using SubmitClaims.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("SubmitClaimsContextConnection") ?? throw new InvalidOperationException("Connection string 'SubmitClaimsContextConnection' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -9,6 +13,8 @@ builder.Services.AddControllersWithViews();
 // Configure DbContext with SQL lite
 builder.Services.AddDbContext<ClaimDbContext>(options =>
     options.UseSqlite("Data Source=claims.db"));
+
+builder.Services.AddDefaultIdentity<SubmitClaimsUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<SubmitClaimsContext>();
 
 var app = builder.Build();
 
