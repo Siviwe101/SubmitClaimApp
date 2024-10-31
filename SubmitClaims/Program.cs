@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using SubmitClaims.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Configure DbContext with SQL lite
+builder.Services.AddDbContext<ClaimDbContext>(options =>
+    options.UseSqlite("Data Source=claims.db"));
 
 var app = builder.Build();
 
