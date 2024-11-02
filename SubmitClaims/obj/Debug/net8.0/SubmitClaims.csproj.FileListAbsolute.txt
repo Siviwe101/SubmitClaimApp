@@ -292,3 +292,4 @@
 /Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/SubmitClaims.pdb
 /Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/SubmitClaims.genruntimeconfig.cache
 /Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/ref/SubmitClaims.dll
+/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/SubmitClaims.sourcelink.json

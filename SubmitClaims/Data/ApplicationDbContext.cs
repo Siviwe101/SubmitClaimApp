@@ -1,12 +1,14 @@
-﻿using System.Security.Claims;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SubmitClaims.Models;
 
-namespace SubmitClaims.Data;
-
-public class ApplicationDbContext : IdentityDbContext
+namespace SubmitClaims.Data
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options) { }
-    public DbSet<Claim> Claims { get; set; }
+    public class ApplicationDbContext : IdentityDbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options) { }
+
+        public DbSet<LecturerClaim> LecturerClaims { get; set; }
+    }
 }

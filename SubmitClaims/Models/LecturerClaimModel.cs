@@ -1,6 +1,6 @@
 namespace SubmitClaims.Models;
 
-public class ClaimModel
+public class LecturerClaim
 {
     public int Id { get; set; }
     public int LecturerId { get; set; }
