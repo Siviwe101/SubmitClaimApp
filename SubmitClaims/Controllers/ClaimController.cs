@@ -1,32 +1,45 @@
-using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 using SubmitClaims.Data;
 using SubmitClaims.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+using System.Threading.Tasks;
 
-namespace SubmitClaims.Controllers;
-
-public class ClaimController(ApplicationDbContext dbContext, IWebHostEnvironment env) : Controller
+namespace SubmitClaims.Controllers
 {
-    [HttpPost]
-    public async Task<IActionResult> SubmitClaim(LecturerClaim claim, IFormFile? uploadedFile)
+    public class ClaimController(ApplicationDbContext dbContext, IWebHostEnvironment env) : Controller
     {
-        if (ModelState.IsValid)
+        [HttpGet]
+        public IActionResult SubmitClaim()
         {
+            return View(new LecturerClaim());
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SubmitClaim(LecturerClaim claim, IFormFile? uploadedFile)
+        {
+            if (!ModelState.IsValid) return View();
             // Handle file upload
             if (uploadedFile is { Length: > 0 })
             {
-                var filePath = Path.Combine(env.WebRootPath, "uploads", uploadedFile.FileName);
+                var uploadsFolder = Path.Combine(env.WebRootPath, "uploads");
+                Directory.CreateDirectory(uploadsFolder); // Ensure the folder exists
+
+                var filePath = Path.Combine(uploadsFolder, uploadedFile.FileName);
                 await using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     await uploadedFile.CopyToAsync(stream);
                 }
-                claim.FilePath = filePath; // Assign file path to Claim's FilePath property
+
+                claim.FilePath = filePath;
             }
 
             dbContext.LecturerClaims.Add(claim);
             await dbContext.SaveChangesAsync();
-            return RedirectToAction("SubmitClaim");
+
+            ViewBag.Message = "Claim submitted successfully!";
+            return View();
+
         }
-        return View(claim);
     }
 }

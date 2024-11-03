@@ -26,6 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/Views/Claim/SubmitClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhaW0vU3VibWl0Q2xhaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,10 +58,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/Pages/Claim/SubmitClaim.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xhaW0vU3VibWl0Q2xhaW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/Views/Home/Index.cshtml]
