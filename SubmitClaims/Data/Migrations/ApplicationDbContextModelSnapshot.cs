@@ -10,6 +10,7 @@ using SubmitClaims.Data;
 namespace SubmitClaims.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
+    
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -20,7 +21,7 @@ namespace SubmitClaims.Data.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("TEXT");  
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -211,6 +212,41 @@ namespace SubmitClaims.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("SubmitClaims.Models.LecturerClaim", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("AdditionalNotes")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("HourlyRate")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("HoursWorked")
+                        .HasColumnType("REAL");
+
+                    b.Property<int>("LecturerId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("SubmissionDate")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LecturerClaims");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

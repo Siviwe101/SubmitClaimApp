@@ -4,6 +4,12 @@ using SubmitClaims.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Enforce secure cookies
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.Secure = CookieSecurePolicy.Always; // Always set cookies as secure
+});
+
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -16,6 +22,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// Enabling cookie policy middleware
+app.UseCookiePolicy();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

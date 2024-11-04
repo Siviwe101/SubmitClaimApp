@@ -2,28 +2,71 @@
 
 <h2>Submit Claim</h2>
 
+@if (TempData["Message"] != null)
+{
+    <p>@TempData["Message"]</p>
+}
+
 <form asp-action="SubmitClaim" enctype="multipart/form-data" method="post">
     <div>
-        <label>Hours Worked:</label>
-        <input asp-for="HoursWorked" type="number" required />
+        <label asp-for="HoursWorked">Hours Worked:</label>
+        <input asp-for="HoursWorked" type="number" required 
+               placeholder="Enter hours worked" 
+               title="Enter the number of hours worked" />
     </div>
     <div>
-        <label>Hourly Rate:</label>
-        <input asp-for="HourlyRate" type="number" required />
+        <label asp-for="HourlyRate">Hourly Rate:</label>
+        <input asp-for="HourlyRate" type="number" required 
+               placeholder="Enter hourly rate" 
+               title="Enter your hourly rate" />
     </div>
     <div>
-        <label>Additional Notes:</label>
-        <textarea asp-for="AdditionalNotes"></textarea>
+        <label asp-for="AdditionalNotes">Additional Notes:</label>
+        <textarea asp-for="AdditionalNotes" 
+                  placeholder="Enter any additional notes" 
+                  title="Additional notes about your claim"></textarea>
     </div>
     <div>
-        <label>Upload Document:</label>
-        <input type="file" name="uploadedFile" />
+        <label for="uploadedFile">Upload Document:</label>
+        <input type="file" id="uploadedFile" name="uploadedFile" 
+               title="Upload a document supporting your claim" />
         <small>Allowed types: .pdf, .docx, .xlsx (Max size: 5MB)</small>
     </div>
-    <button type="submit">Submit</button>
+    <button type="submit" title="Submit your claim">Submit</button>
 </form>
 
-@if (ViewBag.Message != null)
-{
-    <p>@ViewBag.Message</p>
-}
+<h3>Submitted Claims</h3>
+<table>
+    <thead>
+    <tr>
+        <th>Hours Worked</th>
+        <th>Hourly Rate</th>
+        <th>Additional Notes</th>
+        <th>Status</th>
+        <th>Submission Date</th>
+        <th>Uploaded File</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var claim in ViewBag.Claims as List<SubmitClaims.Models.LecturerClaim>)
+    {
+        <tr>
+            <td>@claim.HoursWorked</td>
+            <td>@claim.HourlyRate</td>
+            <td>@claim.AdditionalNotes</td>
+            <td>@claim.Status</td>
+            <td>@claim.SubmissionDate.ToString("yyyy-MM-dd")</td>
+            <td>
+                @if (!string.IsNullOrEmpty(claim.FilePath))
+                {
+                    <a href="@Url.Content("~/" + claim.FilePath)" target="_blank">View Document</a>
+                }
+                else
+                {
+                    <span>No file uploaded</span>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
