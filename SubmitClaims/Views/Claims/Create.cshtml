@@ -7,13 +7,19 @@
 
 <h1>Create Lecturer Claim</h1>
 
-<h4>LecturerClaim</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <!-- Set enctype to "multipart/form-data" to support file uploads -->
         <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="LecturerId" class="control-label"></label>
+                <input asp-for="LecturerId" class="form-control" title="Enter Lecturer ID" placeholder="Lecturer ID" type="number" />
+                <span asp-validation-for="LecturerId" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <label asp-for="HoursWorked" class="control-label"></label>
                 <input asp-for="HoursWorked" class="form-control" title="Enter hours worked" placeholder="Hours Worked" type="number" />
@@ -31,19 +37,6 @@
                 <textarea asp-for="AdditionalNotes" class="form-control" title="Enter additional notes" placeholder="Additional Notes"></textarea>
                 <span asp-validation-for="AdditionalNotes" class="text-danger"></span>
             </div>
-
-            <div class="form-group">
-                <label asp-for="SubmissionDate" class="control-label"></label>
-                <input asp-for="SubmissionDate" type="date" class="form-control" title="Enter submission date" placeholder="Submission Date" />
-                <span asp-validation-for="SubmissionDate" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" title="Enter status" placeholder="Status" />
-                <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-
             <!-- File upload field -->
             <div class="form-group">
                 <label>Upload Document</label>

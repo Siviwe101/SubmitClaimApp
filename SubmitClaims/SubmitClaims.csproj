@@ -45,11 +45,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <AdditionalFiles Include="Views\Claim\SubmitClaim.cshtml" />
+      <Folder Include="Tests\" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Tests\" />
+      <_ContentIncludedByDefault Remove="Views\Claim\SubmitClaim.cshtml" />
     </ItemGroup>
 
 </Project>

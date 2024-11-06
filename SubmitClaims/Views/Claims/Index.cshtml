@@ -16,7 +16,6 @@
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>@Html.DisplayNameFor(model => model.First().LecturerId)</th>
                 <th>@Html.DisplayNameFor(model => model.First().HoursWorked)</th>
                 <th>@Html.DisplayNameFor(model => model.First().HourlyRate)</th>
                 <th>@Html.DisplayNameFor(model => model.First().AdditionalNotes)</th>
@@ -30,11 +29,10 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@Html.DisplayFor(modelItem => item.LecturerId)</td>
                     <td>@Html.DisplayFor(modelItem => item.HoursWorked)</td>
                     <td>@Html.DisplayFor(modelItem => item.HourlyRate)</td>
                     <td>@Html.DisplayFor(modelItem => item.AdditionalNotes)</td>
-                    <td>@item.SubmissionDate.ToString("yyyy-MM-dd")</td>
+                    <td>@item.SubmissionDate.ToString(" yyyy-MM-dd ")</td>
                     <td>@Html.DisplayFor(modelItem => item.Status)</td>
                     <td>
                         @if (!string.IsNullOrEmpty(item.FilePath))

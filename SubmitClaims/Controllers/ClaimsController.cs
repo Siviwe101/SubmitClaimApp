@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,7 @@ using SubmitClaims.Models;
 
 namespace SubmitClaims.Controllers
 {
+    [Authorize]
     public class ClaimsController(
         ApplicationDbContext context,
         IWebHostEnvironment env,
@@ -150,7 +152,7 @@ namespace SubmitClaims.Controllers
                 existingClaim.HoursWorked = lecturerClaim.HoursWorked;
                 existingClaim.HourlyRate = lecturerClaim.HourlyRate;
                 existingClaim.AdditionalNotes = lecturerClaim.AdditionalNotes;
-                existingClaim.SubmissionDate = DateTime.Today;
+                existingClaim.SubmissionDate = DateTime.Today.Date;
                 existingClaim.Status = lecturerClaim.Status;
 
                 await context.SaveChangesAsync();
@@ -263,6 +265,52 @@ namespace SubmitClaims.Controllers
             var allowedExtensions = new[] { ".pdf", ".docx", ".xlsx" };
             var fileExtension = Path.GetExtension(file.FileName).ToLowerInvariant();
             return allowedExtensions.Contains(fileExtension);
+        }
+        
+        // GET: Claims/ManageClaims
+        public async Task<IActionResult> ManageClaims()
+        {
+            // Fetch all claims from the database
+            var claims = await context.LecturerClaims.ToListAsync();
+            return View(claims);
+        }
+
+        // POST: Claims/Approve/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Approve(int id)
+        {
+            var claim = await context.LecturerClaims.FindAsync(id);
+            if (claim == null)
+            {
+                return NotFound();
+            }
+
+            // Set status to "Approved"
+            claim.Status = "Approved";
+            context.Update(claim);
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(ManageClaims));
+        }
+
+        // POST: Claims/Reject/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Reject(int id)
+        {
+            var claim = await context.LecturerClaims.FindAsync(id);
+            if (claim == null)
+            {
+                return NotFound();
+            }
+
+            // Set status to "Rejected"
+            claim.Status = "Rejected";
+            context.Update(claim);
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(ManageClaims));
         }
     }
 }

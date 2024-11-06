@@ -17,7 +17,6 @@ public class LecturerClaim
     public double HourlyRate { get; set; }
     public string AdditionalNotes { get; set; }
     public DateTime SubmissionDate { get; set; }
-    [Required]
     [DefaultValue("Pending")]  // Set default value to "Pending"
     public string Status { get; set; } = "Pending"; // Default status value --- "Pending", "Approved", "Rejected"
     public string? FilePath { get; set; } // For storing file path

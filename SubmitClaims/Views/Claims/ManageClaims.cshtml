@@ -1,0 +1,49 @@
+@model IEnumerable<SubmitClaims.Models.LecturerClaim>
+
+@{
+ViewData["Title"] = "Manage Claims";
+}
+
+<h1>Manage Claims</h1>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Lecturer ID</th>
+        <th>Hours Worked</th>
+        <th>Hourly Rate</th>
+        <th>Additional Notes</th>
+        <th>Submission Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var claim in Model)
+    {
+    <tr>
+        <td>@claim.LecturerId</td>
+        <td>@claim.HoursWorked</td>
+        <td>@claim.HourlyRate</td>
+        <td>@claim.AdditionalNotes</td>
+        <td>@claim.SubmissionDate.ToString("yyyy-MM-dd")</td>
+        <td>@claim.Status</td>
+        <td>
+            @if (claim.Status == "Pending")
+            {
+            <form asp-action="Approve" asp-route-id="@claim.Id" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-success btn-sm">Approve</button>
+            </form>
+            <form asp-action="Reject" asp-route-id="@claim.Id" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-danger btn-sm">Reject</button>
+            </form>
+            }
+            else
+            {
+            <span>@claim.Status</span>
+            }
+        </td>
+    </tr>
+    }
+    </tbody>
+</table>
