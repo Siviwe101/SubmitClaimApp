@@ -47,7 +47,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Claim}/{action=SubmitClaim}/{id?}");
+    pattern: "{controller=Claims}/{action=Create}/{id?}");
 app.MapRazorPages();
 
 app.Run();

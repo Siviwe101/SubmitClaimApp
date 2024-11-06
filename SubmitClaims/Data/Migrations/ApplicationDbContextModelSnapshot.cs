@@ -10,7 +10,6 @@ using SubmitClaims.Data;
 namespace SubmitClaims.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -21,7 +20,7 @@ namespace SubmitClaims.Data.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("TEXT");  
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -225,7 +224,6 @@ namespace SubmitClaims.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FilePath")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<double>("HourlyRate")
@@ -235,6 +233,7 @@ namespace SubmitClaims.Data.Migrations
                         .HasColumnType("REAL");
 
                     b.Property<int>("LecturerId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Status")

@@ -1,0 +1,68 @@
+@model SubmitClaims.Models.LecturerClaim
+
+@{
+    ViewData["Title"] = "Create Lecturer Claim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create Lecturer Claim</h1>
+
+<h4>LecturerClaim</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <!-- Set enctype to "multipart/form-data" to support file uploads -->
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HoursWorked" class="control-label"></label>
+                <input asp-for="HoursWorked" class="form-control" title="Enter hours worked" placeholder="Hours Worked" type="number" />
+                <span asp-validation-for="HoursWorked" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="HourlyRate" class="control-label"></label>
+                <input asp-for="HourlyRate" class="form-control" title="Enter hourly rate" placeholder="Hourly Rate" type="number" step="0.01" />
+                <span asp-validation-for="HourlyRate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AdditionalNotes" class="control-label"></label>
+                <textarea asp-for="AdditionalNotes" class="form-control" title="Enter additional notes" placeholder="Additional Notes"></textarea>
+                <span asp-validation-for="AdditionalNotes" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SubmissionDate" class="control-label"></label>
+                <input asp-for="SubmissionDate" type="date" class="form-control" title="Enter submission date" placeholder="Submission Date" />
+                <span asp-validation-for="SubmissionDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" title="Enter status" placeholder="Status" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <!-- File upload field -->
+            <div class="form-group">
+                <label>Upload Document</label>
+                <input type="file" name="uploadedFile" class="form-control" accept=".pdf,.docx,.xlsx" title="Upload document (PDF, DOCX, XLSX only)" />
+                <small class="form-text text-muted">Allowed types: .pdf, .docx, .xlsx (Max size: 5MB)</small>
+                <span asp-validation-for="FilePath" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

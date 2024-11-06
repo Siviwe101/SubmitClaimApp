@@ -13,4 +13,5 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::6C08E834-4E15-5A45-0E8A-96003D096683::net8.0::SubmitClaims.Tests.ClaimControllerTests.SubmitClaim_Post_ValidModel_RedirectsToAction&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

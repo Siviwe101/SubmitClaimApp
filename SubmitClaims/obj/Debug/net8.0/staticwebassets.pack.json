@@ -1,248 +1,260 @@
 {
   "Files": [
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/scopedcss/projectbundle/SubmitClaims.bundle.scp.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/scopedcss/projectbundle/SubmitClaims.bundle.scp.css",
       "PackagePath": "staticwebassets/SubmitClaims.bundle.scp.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/css/site.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/favicon.ico",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/js/site.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/cp368251/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/uploads/0698ec34-e635-4f96-a7f3-f309da9b5fbd_test.pdf",
+      "PackagePath": "staticwebassets/uploads/0698ec34-e635-4f96-a7f3-f309da9b5fbd_test.pdf"
+    },
+    {
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/uploads/140befb5-6b5a-44b5-8146-c5b0eff6f3bf_test.pdf",
+      "PackagePath": "staticwebassets/uploads/140befb5-6b5a-44b5-8146-c5b0eff6f3bf_test.pdf"
+    },
+    {
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/uploads/4fa1f961-6b29-48bb-b076-7ae658d3de9b_test.pdf",
+      "PackagePath": "staticwebassets/uploads/4fa1f961-6b29-48bb-b076-7ae658d3de9b_test.pdf"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SubmitClaims.Microsoft.AspNetCore.StaticWebAssets.props",

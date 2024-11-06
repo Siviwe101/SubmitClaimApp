@@ -6,7 +6,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SubmitClaims.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class requiredfields : Migration
+    public partial class 
+        requiredfields : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
