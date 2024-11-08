@@ -678,7 +678,6 @@
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/appsettings.Development.json
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/appsettings.json
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims.staticwebassets.runtime.json
-/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/app.db
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims.deps.json
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims.runtimeconfig.json

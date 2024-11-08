@@ -15,7 +15,7 @@ public class LecturerClaim
     [Range(1, 100, ErrorMessage = "Hours worked must be between 1 and 100.")]
     public double HoursWorked { get; set; }
     [Microsoft.Build.Framework.Required]
-    [Range(10, 500, ErrorMessage = "Hourly rate must be between 10 and 500.")]
+    [Range(10, 1000, ErrorMessage = "Hourly rate must be between 10 and 1000.")]
     public double HourlyRate { get; set; }
     public string AdditionalNotes { get; set; }
     public DateTime SubmissionDate { get; set; }
@@ -23,5 +23,6 @@ public class LecturerClaim
     public string Status { get; set; } = "Pending"; // Default status value --- "Pending", "Approved", "Rejected"
     public string? FilePath { get; set; } // For storing file path
     public decimal FinalPayment => (decimal)(HoursWorked * HourlyRate);
+    public Lecturer Lecturer { get; set; }
 
 }
