@@ -43,6 +43,30 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CrystalReports.ReportAppServer.CommLayer": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.ReportAppServer.CommonObjectModel": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.ReportAppServer.Controllers": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.ReportAppServer.CubeDefModel": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.ReportAppServer.DataDefModel": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
+            "CrystalReports.ReportAppServer.ReportDefModel": {
+              "target": "Package",
+              "version": "[13.0.4003, )"
+            },
             "InMemoryDatabase": {
               "target": "Package",
               "version": "[1.0.0, )"

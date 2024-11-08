@@ -678,6 +678,7 @@
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/appsettings.Development.json
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/appsettings.json
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims.staticwebassets.runtime.json
+/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/app.db
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims.deps.json
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/SubmitClaims.runtimeconfig.json
@@ -1089,3 +1090,9 @@
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/SubmitClaims.pdb
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/SubmitClaims.genruntimeconfig.cache
 /Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/obj/Debug/net8.0/ref/SubmitClaims.dll
+/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/CrystalDecisions.ReportAppServer.CommLayer.dll
+/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/CrystalDecisions.ReportAppServer.Controllers.dll
+/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/CrystalDecisions.ReportAppServer.CubeDefModel.dll
+/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/CrystalDecisions.ReportAppServer.DataDefModel.dll
+/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/bin/Debug/net8.0/CrystalDecisions.ReportAppServer.ReportDefModel.dll

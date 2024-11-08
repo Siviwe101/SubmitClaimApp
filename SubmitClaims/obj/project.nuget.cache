@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ze0Mef+HyVY=",
+  "dgSpecHash": "143uHXFWjxo=",
   "success": true,
   "projectFilePath": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/SubmitClaims.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,12 @@
     "/Users/ElonaFrance/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/ElonaFrance/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/ElonaFrance/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/ElonaFrance/.nuget/packages/crystalreports.reportappserver.commlayer/13.0.4003/crystalreports.reportappserver.commlayer.13.0.4003.nupkg.sha512",
+    "/Users/ElonaFrance/.nuget/packages/crystalreports.reportappserver.commonobjectmodel/13.0.4003/crystalreports.reportappserver.commonobjectmodel.13.0.4003.nupkg.sha512",
+    "/Users/ElonaFrance/.nuget/packages/crystalreports.reportappserver.controllers/13.0.4003/crystalreports.reportappserver.controllers.13.0.4003.nupkg.sha512",
+    "/Users/ElonaFrance/.nuget/packages/crystalreports.reportappserver.cubedefmodel/13.0.4003/crystalreports.reportappserver.cubedefmodel.13.0.4003.nupkg.sha512",
+    "/Users/ElonaFrance/.nuget/packages/crystalreports.reportappserver.datadefmodel/13.0.4003/crystalreports.reportappserver.datadefmodel.13.0.4003.nupkg.sha512",
+    "/Users/ElonaFrance/.nuget/packages/crystalreports.reportappserver.reportdefmodel/13.0.4003/crystalreports.reportappserver.reportdefmodel.13.0.4003.nupkg.sha512",
     "/Users/ElonaFrance/.nuget/packages/duende.identityserver/6.0.4/duende.identityserver.6.0.4.nupkg.sha512",
     "/Users/ElonaFrance/.nuget/packages/duende.identityserver.aspnetidentity/6.0.4/duende.identityserver.aspnetidentity.6.0.4.nupkg.sha512",
     "/Users/ElonaFrance/.nuget/packages/duende.identityserver.entityframework/6.0.4/duende.identityserver.entityframework.6.0.4.nupkg.sha512",
@@ -315,6 +321,66 @@
     "/Users/ElonaFrance/.nuget/packages/xunit.extensibility.execution/2.9.2/xunit.extensibility.execution.2.9.2.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CrystalReports.ReportAppServer.CommLayer 13.0.4003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CrystalReports.ReportAppServer.CommLayer",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CrystalReports.ReportAppServer.CommonObjectModel 13.0.4003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CrystalReports.ReportAppServer.CommonObjectModel",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CrystalReports.ReportAppServer.Controllers 13.0.4003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CrystalReports.ReportAppServer.Controllers",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CrystalReports.ReportAppServer.CubeDefModel 13.0.4003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CrystalReports.ReportAppServer.CubeDefModel",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CrystalReports.ReportAppServer.DataDefModel 13.0.4003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CrystalReports.ReportAppServer.DataDefModel",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CrystalReports.ReportAppServer.ReportDefModel 13.0.4003' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CrystalReports.ReportAppServer.ReportDefModel",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

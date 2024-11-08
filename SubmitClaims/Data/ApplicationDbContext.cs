@@ -10,5 +10,9 @@ namespace SubmitClaims.Data
             : base(options) { }
 
         public DbSet<LecturerClaim> LecturerClaims { get; set; }
+        public DbSet<Lecturer> Lecturers { get; set; }
+        
+        public DbSet<Invoice> Invoices { get; set; }
+        
     }
 }
