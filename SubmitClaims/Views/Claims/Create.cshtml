@@ -22,14 +22,20 @@
 
             <div class="form-group">
                 <label asp-for="HoursWorked" class="control-label"></label>
-                <input asp-for="HoursWorked" class="form-control" title="Enter hours worked" placeholder="Hours Worked" type="number" />
+                <input asp-for="HoursWorked" class="form-control" title="Enter hours worked" placeholder="Hours Worked" type="number" min="0" onchange="calculateFinalPayment()" />
                 <span asp-validation-for="HoursWorked" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <label asp-for="HourlyRate" class="control-label"></label>
-                <input asp-for="HourlyRate" class="form-control" title="Enter hourly rate" placeholder="Hourly Rate" type="number" step="0.01" />
+                <input asp-for="HourlyRate" class="form-control" title="Enter hourly rate" placeholder="Hourly Rate" type="number" step="0.01" min="0" onchange="calculateFinalPayment()" />
                 <span asp-validation-for="HourlyRate" class="text-danger"></span>
+            </div>
+
+            <!-- Display final payment calculation -->
+            <div class="form-group">
+                <label>Final Payment</label>
+                <input id="FinalPayment" class="form-control" placeholder="Final Payment" readonly />
             </div>
 
             <div class="form-group">
@@ -37,6 +43,7 @@
                 <textarea asp-for="AdditionalNotes" class="form-control" title="Enter additional notes" placeholder="Additional Notes"></textarea>
                 <span asp-validation-for="AdditionalNotes" class="text-danger"></span>
             </div>
+
             <!-- File upload field -->
             <div class="form-group">
                 <label>Upload Document</label>
@@ -58,4 +65,17 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        function calculateFinalPayment() {
+            // Get values of HoursWorked and HourlyRate fields
+            const hoursWorked = parseFloat(document.querySelector('[name="HoursWorked"]').value) || 0;
+            const hourlyRate = parseFloat(document.querySelector('[name="HourlyRate"]').value) || 0;
+
+            // Calculate the final payment
+            const finalPayment = hoursWorked * hourlyRate;
+
+            // Update the final payment field
+            document.getElementById("FinalPayment").value = finalPayment.toFixed(2);
+        }
+    </script>
 }

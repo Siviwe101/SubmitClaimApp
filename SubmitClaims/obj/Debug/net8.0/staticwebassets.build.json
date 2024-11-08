@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Au3XgbP27hGNMXbyYHb2tpctTk8EWU7Uhy9/bny63Hk=",
+  "Hash": "/Utrwt0ueYDHHZ4+2mUtnpuPqNhpuIBvRZpr6q/yw1Q=",
   "Source": "SubmitClaims",
   "BasePath": "_content/SubmitClaims",
   "Mode": "Default",
@@ -2390,6 +2390,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/4fa1f961-6b29-48bb-b076-7ae658d3de9b_test.pdf"
+    },
+    {
+      "Identity": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/uploads/ecfea419-022d-43ca-a8e5-135776685fc0_test.pdf",
+      "SourceId": "SubmitClaims",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/",
+      "BasePath": "_content/SubmitClaims",
+      "RelativePath": "uploads/ecfea419-022d-43ca-a8e5-135776685fc0_test.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/ecfea419-022d-43ca-a8e5-135776685fc0_test.pdf"
     }
   ]
 }

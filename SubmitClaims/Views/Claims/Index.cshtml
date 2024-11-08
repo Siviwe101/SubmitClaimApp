@@ -1,7 +1,7 @@
 @model IEnumerable<SubmitClaims.Models.LecturerClaim>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Claims List";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -18,6 +18,7 @@
             <tr>
                 <th>@Html.DisplayNameFor(model => model.First().HoursWorked)</th>
                 <th>@Html.DisplayNameFor(model => model.First().HourlyRate)</th>
+                <th>Final Payment</th> <!-- New column for auto-calculated final payment -->
                 <th>@Html.DisplayNameFor(model => model.First().AdditionalNotes)</th>
                 <th>@Html.DisplayNameFor(model => model.First().SubmissionDate)</th>
                 <th>@Html.DisplayNameFor(model => model.First().Status)</th>
@@ -31,17 +32,19 @@
                 <tr>
                     <td>@Html.DisplayFor(modelItem => item.HoursWorked)</td>
                     <td>@Html.DisplayFor(modelItem => item.HourlyRate)</td>
+                    <!-- Auto-calculated final payment -->
+                    <td>@(item.HoursWorked * item.HourlyRate)</td> <!-- Currency formatting -->
                     <td>@Html.DisplayFor(modelItem => item.AdditionalNotes)</td>
-                    <td>@item.SubmissionDate.ToString(" yyyy-MM-dd ")</td>
+                    <td>@item.SubmissionDate.ToString("yyyy-MM-dd")</td>
                     <td>@Html.DisplayFor(modelItem => item.Status)</td>
                     <td>
                         @if (!string.IsNullOrEmpty(item.FilePath))
                         {
-                        <a href="@Url.Content($"{item.FilePath}")" target="_blank">@item.FilePath</a>
+                            <a href="@Url.Content($"{item.FilePath}")" target="_blank">@item.FilePath</a>
                         }
                         else
                         {
-                        <span>No file uploaded</span>
+                            <span>No file uploaded</span>
                         }
                     </td>
                     <td>

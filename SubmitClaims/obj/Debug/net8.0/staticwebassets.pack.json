@@ -257,6 +257,10 @@
       "PackagePath": "staticwebassets/uploads/4fa1f961-6b29-48bb-b076-7ae658d3de9b_test.pdf"
     },
     {
+      "Id": "/Users/ElonaFrance/Documents/GitHub/SubmitClaimApp/SubmitClaims/wwwroot/uploads/ecfea419-022d-43ca-a8e5-135776685fc0_test.pdf",
+      "PackagePath": "staticwebassets/uploads/ecfea419-022d-43ca-a8e5-135776685fc0_test.pdf"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SubmitClaims.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
